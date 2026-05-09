@@ -1,0 +1,38 @@
+{
+  "101033": {
+    "items": [
+      { "id": 1, "name": "Whopper", "price": 199 },
+      { "id": 2, "name": "Veg Whopper", "price": 179 },
+      { "id": 3, "name": "Crispy Chicken Burger", "price": 169 },
+      { "id": 4, "name": "Veg Burger", "price": 99 },
+      { "id": 5, "name": "French Fries", "price": 109 },
+      { "id": 6, "name": "Chicken Nuggets", "price": 149 },
+      { "id": 7, "name": "Coke", "price": 60 },
+      { "id": 8, "name": "Chocolate Shake", "price": 120 }
+    ]
+  },
+
+  "123456": {
+    "items": [
+      {"id": 1, "name": "Veg Burger", "price": 150},
+      {"id": 2, "name": "French Fries", "price": 120}
+    ]
+  },
+  "100222": {
+    "items": [
+       { "id": 1, "name": "Masala Dosa", "price": 80 },
+      { "id": 2, "name": "Idli (2 pcs)", "price": 40 },
+      { "id": 3, "name": "Vada", "price": 35 },
+      { "id": 4, "name": "Plain Dosa", "price": 60 },
+      { "id": 5, "name": "Rava Dosa", "price": 90 },
+      { "id": 6, "name": "Uttapam", "price": 85 },
+      { "id": 7, "name": "Pongal", "price": 70 },
+      { "id": 8, "name": "Sambar Rice", "price": 90 },
+      { "id": 9, "name": "Curd Rice", "price": 80 },
+      { "id": 10, "name": "Filter Coffee", "price": 30 }
+    ]
+  }
+  
+
+  
+}
