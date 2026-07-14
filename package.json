@@ -25,6 +25,8 @@
     "react-router-dom": "^6.30.3"
   },
   "browserslist": [
-    "last 2 version of edge"
-  ]
+  ">0.2%",
+  "not dead",
+  "not op_mini all"
+]
 }
