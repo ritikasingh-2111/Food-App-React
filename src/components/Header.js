@@ -6,6 +6,7 @@ import useOnlineStatus from "../utils/useOnlineStatus";
 export const Header = () => {
 
   const [btnNameReact, setBtnNameReact] = useState("Login");
+  const [menuOpen, setMenuOpen] = useState(false);
   const isOnline = useOnlineStatus();
 
   return (
@@ -14,12 +15,20 @@ export const Header = () => {
         <img className="logo" src={LOGO_URL} />
       </div>
 
-      <div className="nav-items">
+      <button
+        className="hamburger-btn"
+        aria-label="Toggle navigation menu"
+        onClick={() => setMenuOpen((open) => !open)}
+      >
+        <i className={menuOpen ? "ri-close-line" : "ri-menu-line"}></i>
+      </button>
+
+      <div className={"nav-items" + (menuOpen ? " nav-items-open" : "")}>
         <ul>
           <li>Online Status:{isOnline ? "✅" : "❌"}</li>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About Us</Link></li>
-          <li><Link to="/contact">Contact Us</Link></li>
+          <li><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
+          <li><Link to="/about" onClick={() => setMenuOpen(false)}>About Us</Link></li>
+          <li><Link to="/contact" onClick={() => setMenuOpen(false)}>Contact Us</Link></li>
 
           <li>
             <button
