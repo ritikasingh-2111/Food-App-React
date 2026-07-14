@@ -299,16 +299,12 @@ background:#e56710;
   color: #e85a2a;
   text-decoration: underline;
 }
-.user-card button {
-    padding: 8px 16px;
-    border: none;
-    border-radius: 6px;
-    background-color: #eb6025;
-    color: white;
-    cursor: pointer;
-    font-size: 14px;
-}
 
-.user-card button:hover {
-    background-color: #d84f1d;
+.user-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 15px;
 }
